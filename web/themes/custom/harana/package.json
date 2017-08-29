@@ -1,0 +1,17 @@
+{
+  "name": "harana-drupal-theme",
+  "version": "1.1",
+  "dependencies": {
+    "load-grunt-tasks": "~0.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-banner": "~0.4.0",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-rsync": "~0.2.1"
+  }
+}
