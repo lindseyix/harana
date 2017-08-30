@@ -39,8 +39,12 @@
 			}
 		}
 
-		.blog-image{
+		.blog-image {
+			padding-bottom: 2em;
 			
+			@media #{$tablet} {
+				padding-bottom: 0;
+			}
 		}
 	}
 }
