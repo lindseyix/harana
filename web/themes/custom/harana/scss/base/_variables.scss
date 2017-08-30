@@ -1,11 +1,8 @@
 // Variables
 // --------------------------------------------------
-$black:                  #1d181e;
+$black:                  #0e1821;
 $white:					 #ffffff;
-$red:					 #ca0213;
-$yellow:				 #f4eda3;
-$light-blue:			 #cce1ea;
-$brown:					 #c9b18f;
+$yellow:				 #e7d553;
 
 
 // Global values
@@ -14,11 +11,11 @@ $brown:					 #c9b18f;
 // Grays
 // -------------------------
 
-$gray-darker:            #4d4d4d;
-$gray-dark:              #999999;
-$gray:                   #b6bbb8;
-$gray-light:             #f2f2f2;
-$gray-lighter:           #dfdfdf;
+$gray-darker:            #1b1b1b;
+$gray-dark:              #444444;
+$gray:                   #999999;
+$gray-light:             #aaaaaa;
+$gray-lighter:           #f9f9f9;
 
 // Brand colors
 // -------------------------
@@ -44,21 +41,18 @@ $link-hover-color:      #000;
 // Typography
 // -------------------------
 
-$font-family-base:       "ProximaNova Regular", Arial, Verdana, sans-serif;
-$font-family-medium:     "ProximaNova Medium", Arial, Verdana, sans-serif;
-$font-family-light:      "ProximaNova Light", Arial, Verdana, sans-serif;
-$font-family-bold:       "ProximaNova Bold", Arial, Verdana, sans-serif;
-$font-family-semibold:   "ProximaNova Semibold", Arial, Verdana, sans-serif;
-$font-family-extrabold:  "ProximaNova Extrabold", Arial, Verdana, sans-serif;
+$font-family-base:       "Open Sans regular", Arial, Verdana, sans-serif;
+$font-family-light:      "Open Sans light", Arial, Verdana, sans-serif;
+$font-family-bold:       "Open Sans bold", Arial, Verdana, sans-serif;
 
-$font-size-base:          26px;
+$font-size-base:          16px;
 $font-size-large:         ceil($font-size-base * 1.25); // ~18px
 $font-size-small:         ceil($font-size-base * 0.85); // ~12px
 
-$font-size-h1:            100px; 
-$font-size-h2:            65px; 
-$font-size-h3:            45px; 
-$font-size-h4:            30px; 
+$font-size-h1:            40px; 
+$font-size-h2:            32px; 
+$font-size-h3:            24px; 
+$font-size-h4:            17px; 
 $font-size-h5:            $font-size-base;
 $font-size-h6:            ceil($font-size-base * 0.85); // ~12px
 
@@ -128,8 +122,8 @@ $btn-default-bg:                 #000;
 $btn-default-border:             #ccc;
 
 $btn-primary-color:              #fff;
-$btn-primary-bg:                 #000;
-$btn-primary-border:             darken($btn-primary-bg, 5%);
+$btn-primary-bg:                 #444;
+$btn-primary-border:             transparent;
 
 $btn-success-color:              #fff;
 $btn-success-bg:                 $brand-success;

@@ -1,0 +1,125 @@
+#block-contactinfo {
+	float: right;
+	background-color: $white;
+}
+
+.contact-info {
+	float: right;
+	width: 50%;
+	list-style: none;
+	padding-left: 1.2em;
+	padding-bottom: .3em;
+	margin-bottom: 0;
+	line-height: 5em; 
+
+	@media #{$tablet} {
+		padding-left: 0;
+		padding-bottom: 0;
+		width: auto;
+	}
+
+	.info {
+		display: block;
+		position: relative;
+		line-height: 2em;
+		font-size: .8em;
+
+		@media #{$tablet} {
+			display: inline;
+			font-size: $font-size-base;
+		}
+	}
+
+	.email {
+		@media #{$tablet} {
+			padding-right: 1.5em;
+		}
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: .5em;
+			left: -1.4em;
+			display: block;
+			background: url(../images/email.svg);
+			background-size: 100%;
+			width: 13px;
+			height: 13px;
+
+			@media #{$tablet} {
+				top: .3em;
+				left: -1.2em;
+			}
+		}
+	}
+
+	.telephone {
+		@media #{$tablet} {
+			padding-right: 2em;
+		}
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: .5em;
+			left: -1.4em;
+			display: block;
+			background: url(../images/phone.svg);
+			background-size: 100%;
+			width: 13px;
+			height: 13px;
+
+			@media #{$tablet} {
+				top: .3em;
+				left: -1.1em;
+			}
+		}
+	}
+
+	.social {
+		width: 25%;
+		float: left;
+		left: -1.3em;
+
+		@media #{$tablet} {
+			width: auto;
+			float: none;
+			left: 0;
+		}	
+
+		a {
+			text-indent: -9999px;
+			line-height: 1em;
+		}
+	}
+
+	.linkedin {
+		display: inline-block;
+		background: url(../images/linkedin.svg);
+		background-size: 100%;
+		width: 15px;
+		height: 15px;
+		margin-right: .5em;
+
+		&:before {
+			@media #{$tablet} {
+				content: '';
+				position: absolute;
+				top: -1.7em;
+				left: -1em;
+				display: block;
+				background: url(../images/vertical-stripe.jpg);
+				width: 1px;
+				height: 73px;
+			}
+		}
+	}
+
+	.whatsapp {
+		display: inline-block;
+		background: url(../images/whatsapp.svg);
+		background-size: 100%;
+		width: 15px;
+		height: 15px;
+	}
+}

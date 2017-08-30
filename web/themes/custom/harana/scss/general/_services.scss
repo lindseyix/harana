@@ -1,0 +1,46 @@
+.services {
+	padding: 3em 0 4em 0;
+
+	.service-title {
+		position: relative;
+		font-size: 1.2em;
+		padding-left: 1.5em;
+
+		&:before {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 1em;
+			height: 1em;
+		}
+	}
+
+	.item-1 {
+		.service-title {
+			&:before {
+				background: url(../images/drupal-logo.svg);
+				background-size: cover;
+			}
+		}
+	}
+
+	.item-2 {
+		.service-title {
+			&:before {
+				background: url(../images/laptop.svg);
+				background-size: cover;
+			}
+		}
+	}
+
+	.item-3 {
+		.service-title {
+			&:before {
+				background: url(../images/headphones.svg);
+				background-size: cover;
+			}
+		}
+	}
+}

@@ -1,47 +1,35 @@
-$font-name: "Montserrat bold";
+$font-name: "open Sans regular";
 @font-face {
-	font-family:"Montserrat bold";
-	src:url("../fonts/montserrat/montserrat-bold.eot?#iefix");
-	src:url("../fonts/montserrat/montserrat-bold.eot?#iefix") format("eot"),
-	url("../fonts/montserrat/montserrat-bold.woff") format("woff"),
-	url("../fonts/montserrat/montserrat-bold.ttf") format("truetype"),
-	url("../fonts/montserrat/montserrat-bold.svg") format("svg");
+	font-family:"Open Sans regular";
+	src:url("../fonts/opensans/opensans-regular.eot?#iefix");
+	src:url("../fonts/opensans/opensans-regular.eot?#iefix") format("eot"),
+	url("../fonts/opensans/opensans-regular.woff") format("woff"),
+	url("../fonts/opensans/opensans-regular.ttf") format("truetype"),
+	url("../fonts/opensans/opensans-regular.svg") format("svg");
   	font-weight: normal;
 	font-style: normal;
 }
 
-$font-name: "Montserrat light";
+$font-name: "Open Sans bold";
 @font-face {
-	font-family:"Montserrat light";
-	src:url("../fonts/montserrat/montserrat-light.eot?#iefix");
-	src:url("../fonts/montserrat/montserrat-light.eot?#iefix") format("eot"),
-	url("../fonts/montserrat/montserrat-light.woff") format("woff"),
-	url("../fonts/montserrat/montserrat-light.ttf") format("truetype"),
-	url("../fonts/montserrat/montserrat-light.svg") format("svg");
+	font-family:"Open Sans bold";
+	src:url("../fonts/opensans/opensans-bold.eot?#iefix");
+	src:url("../fonts/opensans/opensans-bold.eot?#iefix") format("eot"),
+	url("../fonts/opensans/opensans-bold.woff") format("woff"),
+	url("../fonts/opensans/opensans-bold.ttf") format("truetype"),
+	url("../fonts/opensans/opensans-bold.svg") format("svg");
   	font-weight: normal;
 	font-style: normal;
 }
 
-$font-name: "Playfairdisplay bold";
+$font-name: "Open Sans light";
 @font-face {
-	font-family:"Playfairdisplay bold";
-	src:url("../fonts/playfairdisplay/playfairdisplay-bold.eot?#iefix");
-	src:url("../fonts/playfairdisplay/playfairdisplay-bold.eot?#iefix") format("eot"),
-	url("../fonts/playfairdisplay/playfairdisplay-bold.woff") format("woff"),
-	url("../fonts/playfairdisplay/playfairdisplay-bold.ttf") format("truetype"),
-	url("../fonts/playfairdisplay/playfairdisplay-bold.svg") format("svg");
-  	font-weight: normal;
-	font-style: normal;
-}
-
-$font-name: "Playfairdisplay regular";
-@font-face {
-	font-family:"Playfairdisplay regular";
-	src:url("../fonts/playfairdisplay/playfairdisplay-regular.eot?#iefix");
-	src:url("../fonts/playfairdisplay/playfairdisplay-regular.eot?#iefix") format("eot"),
-	url("../fonts/playfairdisplay/playfairdisplay-regular.woff") format("woff"),
-	url("../fonts/playfairdisplay/playfairdisplay-regular.ttf") format("truetype"),
-	url("../fonts/playfairdisplay/playfairdisplay-regular.svg") format("svg");
+	font-family:"Open Sans light";
+	src:url("../fonts/opensans/opensans-light.eot?#iefix");
+	src:url("../fonts/opensans/opensans-light.eot?#iefix") format("eot"),
+	url("../fonts/opensans/opensans-light.woff") format("woff"),
+	url("../fonts/opensans/opensans-light.ttf") format("truetype"),
+	url("../fonts/opensans/opensans-light.svg") format("svg");
   	font-weight: normal;
 	font-style: normal;
 }

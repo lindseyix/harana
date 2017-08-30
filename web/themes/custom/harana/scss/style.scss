@@ -10,4 +10,14 @@
 // Base-theme overrides.
 @import "base/font";
 @import "base/variables";
-@import "base/elements"; 
+@import "base/elements";
+@import "component/buttons";
+@import "component/header";
+@import "general/blog"; 
+@import "general/block-header"; 
+@import "general/block-title"; 
+@import "general/contact-info"; 
+@import "general/logo";  
+@import "general/news-updates";
+@import "general/project";
+@import "general/services";

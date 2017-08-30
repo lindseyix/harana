@@ -1,0 +1,39 @@
+.page-node-type-project {
+	section {
+		background-color: $gray-lighter;
+	}
+	.content {
+		.field--name-body {
+			padding: 1em 0;
+		}
+	}
+}
+
+.block-views-blockproject-block-1 {
+	.view-content {
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+
+		.views-row {
+			width: 100%;
+
+			@media #{$tablet} {
+				width: 25%;
+			}
+
+			.project-image {
+				width: 180px;
+				height: 170px;
+				overflow: hidden;
+
+				img {
+					width: auto;
+					height: 170px;
+				}
+			}
+		}
+	}
+}
