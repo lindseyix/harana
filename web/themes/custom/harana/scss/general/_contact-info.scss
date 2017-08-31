@@ -3,57 +3,69 @@
 	background-color: $white;
 }
 
+.header {
+	.contact-info {
+		display: none;
+
+		@media #{$tablet} {
+			display: inline-block;
+		}
+	}
+}
+
 .contact-info {
-	float: right;
-	width: 50%;
 	list-style: none;
 	padding-left: 1.2em;
-	padding-bottom: .3em;
 	margin-bottom: 0;
-	line-height: 5em; 
+	line-height: 3em; 
 
 	@media #{$tablet} {
+		float: right;
 		padding-left: 0;
-		padding-bottom: 0;
-		width: auto;
+		line-height: 5em;
 	}
 
 	.info {
-		display: block;
+		display: inline;
 		position: relative;
-		line-height: 2em;
 		font-size: .8em;
 
 		@media #{$tablet} {
-			display: inline;
 			font-size: $font-size-base;
 		}
 	}
 
 	.email {
+		padding-left: .5em;
+		padding-right: 1.5em;
+
 		@media #{$tablet} {
-			padding-right: 1.5em;
+			padding-left: 0;
 		}
 
 		&:before {
 			content: '';
 			position: absolute;
-			top: .5em;
-			left: -1.4em;
+			top: .2em;
+			left: -.7em;
 			display: block;
 			background: url(../images/email.svg);
 			background-size: 100%;
-			width: 13px;
-			height: 13px;
+			width: 11px;
+			height: 11px;
 
 			@media #{$tablet} {
 				top: .3em;
 				left: -1.2em;
+				width: 13px;
+				height: 13px;
 			}
 		}
 	}
 
 	.telephone {
+		padding-right: 1em;
+
 		@media #{$tablet} {
 			padding-right: 2em;
 		}
@@ -61,32 +73,23 @@
 		&:before {
 			content: '';
 			position: absolute;
-			top: .5em;
-			left: -1.4em;
+			top: .2em;
+			left: -1.1em;
 			display: block;
 			background: url(../images/phone.svg);
 			background-size: 100%;
-			width: 13px;
-			height: 13px;
+			width: 11px;
+			height: 11px;
 
 			@media #{$tablet} {
 				top: .3em;
-				left: -1.1em;
+				width: 13px;
+				height: 13px;
 			}
 		}
 	}
 
 	.social {
-		width: 25%;
-		float: left;
-		left: -1.3em;
-
-		@media #{$tablet} {
-			width: auto;
-			float: none;
-			left: 0;
-		}	
-
 		a {
 			text-indent: -9999px;
 			line-height: 1em;
@@ -97,9 +100,14 @@
 		display: inline-block;
 		background: url(../images/linkedin.svg);
 		background-size: 100%;
-		width: 15px;
-		height: 15px;
-		margin-right: .5em;
+		width: 13px;
+		height: 13px;
+		margin-right: .6em;
+
+		@media #{$tablet} {
+			width: 15px;
+			height: 15px;
+		}
 
 		&:before {
 			@media #{$tablet} {
@@ -119,7 +127,21 @@
 		display: inline-block;
 		background: url(../images/whatsapp.svg);
 		background-size: 100%;
-		width: 15px;
-		height: 15px;
+		width: 13px;
+		height: 13px;
+
+		@media #{$tablet} {
+			width: 15px;
+			height: 15px;
+		}
+	}
+}
+
+.contact-info-footer {
+	display: inline-block;
+	padding: 0;
+
+	@media #{$tablet} {
+		display: none;
 	}
 }

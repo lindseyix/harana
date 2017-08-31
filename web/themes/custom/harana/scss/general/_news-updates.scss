@@ -105,6 +105,12 @@
 					background-size: 100%;
 					width: 15px;
 					height: 15px;
+
+					&:hover,
+					&:focus {
+						transition: transform 0.5s ease;
+						transform: translateX(30%);
+					}
 				}
 			}
 		}

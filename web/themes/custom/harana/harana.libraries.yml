@@ -3,6 +3,9 @@ global-styling:
     theme:
       css/style.css: {}
 
+  js:
+    js/slide.js: {}
+
 bootstrap-scripts:
   js:
     bootstrap/assets/javascripts/bootstrap/affix.js: {}
